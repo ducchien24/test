@@ -1,0 +1,6 @@
+config:
+  aws:profile: scg-dev
+  aws:region: us-east-1
+  roobz-fe:data:
+    hostedZoneId: "Z04255012QB3NZQUT47EN"  
+    targetDomain: "roo.bz"

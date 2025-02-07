@@ -1,0 +1,12 @@
+.input {
+  border-radius: 10px;
+  &:focus {
+    outline: none;
+    border: double 1px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(white, white),
+      linear-gradient(85.84deg, #08aeea -11.49%, #58cb96 108.4%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+  }
+}

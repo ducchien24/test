@@ -1,0 +1,5 @@
+{
+  "i18n-ally.localesPaths": ["src/translations"],
+  "i18n-ally.enabledFrameworks": ["vue", "react"],
+  "i18n-ally.keystyle": "nested"
+}

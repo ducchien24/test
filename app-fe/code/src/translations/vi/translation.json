@@ -1,0 +1,11 @@
+{
+  "welcome": {
+    "title": "Chào mừng {{framework}}"
+  },
+  "enterField": "Nhập {{value}}",
+  "userName": "Tên đăng nhập",
+  "Calendar": "Lịch",
+  "Quotations": "Quotations",
+  "MarkAllAsRead": "Mark all as read",
+  "fieldRequired": "Trường này là bắt buộc!"
+}
