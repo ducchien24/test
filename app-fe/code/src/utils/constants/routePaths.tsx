@@ -12,8 +12,8 @@ import { Register } from '@/pages/register';
 import { CusTomDomain } from '@/pages/settings/custom-domain';
 import { VerifyPage } from '@/pages/verify';
 
+import DomainPage from '@/pages/settings/custom-domain-by-chien/DomainPage';
 
-import PageDomainNoReq  from '@/pages/settings/custom-domain-by-chien/DomainPage/PageDomainNoReq'
 
 // import ForgotPassword from '@/features/forgotPassword/ForgotPassword';
 // import Login from '@/features/login/Login';
@@ -109,7 +109,7 @@ const routeObjects: RouteObject[] = [
     errorElement: <NotFoundPage />,
     children: [
       { element:
-        <PageDomainNoReq/>,
+        <DomainPage/>,
         //  <CusTomDomain />,
          path: routePaths.SETTINGS_CUSTOM_DOMAIN },
     ],
